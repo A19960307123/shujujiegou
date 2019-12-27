@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="091eefac-1cb2-40a5-92f3-bc4829369210" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tree/ArrBinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/ClueBinaryTreeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BinaryTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTreeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/tree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shujujiegou/tree/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/tree/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shujujiegou/tree/HeroNode.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,13 +37,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+            <state relative-caret-position="165">
+              <caret line="109" column="21" lean-forward="true" selection-start-line="74" selection-start-column="4" selection-end-line="109" selection-end-column="21" />
               <folding>
-                <element signature="method#setRoot#0;class#BinaryTree#0" />
+                <element signature="docComment;class#BinaryTreeDemo#0" />
                 <element signature="method#preOrder#0;class#BinaryTree#0" />
                 <element signature="method#infixOrder#0;class#BinaryTree#0" />
                 <element signature="method#postOrder#0;class#BinaryTree#0" />
@@ -54,7 +57,6 @@
                 <element signature="method#setName#0;class#HeroNode#0" />
                 <element signature="method#getLeft#0;class#HeroNode#0" />
                 <element signature="method#setLeft#0;class#HeroNode#0" />
-                <element signature="method#getRight#0;class#HeroNode#0" />
                 <element signature="method#setRight#0;class#HeroNode#0" />
                 <element signature="method#toString#0;class#HeroNode#0" />
                 <element signature="docComment;method#preOrder#0;class#HeroNode#0" />
@@ -72,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sort/QuickSort.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tree/ClueBinaryTreeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1457">
-              <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+            <state relative-caret-position="485">
+              <caret line="96" column="31" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -146,7 +148,10 @@
         <option value="$PROJECT_DIR$/src/search/FibonacciSearch.java" />
         <option value="$PROJECT_DIR$/src/hashtable/HashTableDemo.java" />
         <option value="$PROJECT_DIR$/src/sort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/tree/ArrBinaryTreeDemo.java" />
         <option value="$PROJECT_DIR$/src/tree/BinaryTreeDemo.java" />
+        <option value="$PROJECT_DIR$/src/tree/ClueBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/tree/ClueBinaryTreeDemo.java" />
       </list>
     </option>
   </component>
@@ -159,10 +164,12 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="185" />
     <option name="y" value="20" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -185,12 +192,6 @@
               <item name="shujujiegou" type="b2602c69:ProjectViewProjectNode" />
               <item name="shujujiegou" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="digui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shujujiegou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shujujiegou" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -198,7 +199,7 @@
               <item name="shujujiegou" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="BinaryTreeDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="ClueBinaryTreeDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -232,7 +233,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.ArrBinaryTreeDemo">
+    <configuration name="ArrBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.ArrBinaryTreeDemo" />
+      <module name="shujujiegou" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.BinarySearch" />
       <module name="shujujiegou" />
@@ -300,6 +314,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrBinaryTreeDemo" />
         <item itemvalue="Application.HashTableDemo" />
         <item itemvalue="Application.FibonacciSearch" />
         <item itemvalue="Application.BinarySearch" />
@@ -324,7 +339,7 @@
       <workItem from="1577012404300" duration="30615000" />
       <workItem from="1577156023666" duration="15331000" />
       <workItem from="1577240950956" duration="16230000" />
-      <workItem from="1577412810480" duration="5121000" />
+      <workItem from="1577412810480" duration="10991000" />
     </task>
     <task id="LOCAL-00001" summary="第一次用">
       <created>1577413045787</created>
@@ -347,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577416186756</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2.0">
+      <created>1577430200985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577430200986</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -356,7 +378,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70698000" />
+    <option name="totallyTimeSpent" value="76568000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -371,11 +393,11 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5926471" visible="true" weight="0.20844504" />
-      <window_info id="Structure" order="1" sideWeight="0.40735295" side_tool="true" visible="true" weight="0.20844504" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" sideWeight="0.50147057" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.44017094" weight="0.20844504" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.50147057" side_tool="true" weight="0.25" />
+      <window_info active="true" id="Structure" order="4" sideWeight="0.55982906" visible="true" weight="0.20844504" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31176472" />
@@ -403,6 +425,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次用" />
@@ -649,16 +681,23 @@
     <entry file="file://$PROJECT_DIR$/src/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1457">
-          <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/ArrBinaryTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-640">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        <state relative-caret-position="165">
+          <caret line="109" column="21" lean-forward="true" selection-start-line="74" selection-start-column="4" selection-end-line="109" selection-end-column="21" />
           <folding>
-            <element signature="method#setRoot#0;class#BinaryTree#0" />
+            <element signature="docComment;class#BinaryTreeDemo#0" />
             <element signature="method#preOrder#0;class#BinaryTree#0" />
             <element signature="method#infixOrder#0;class#BinaryTree#0" />
             <element signature="method#postOrder#0;class#BinaryTree#0" />
@@ -672,7 +711,6 @@
             <element signature="method#setName#0;class#HeroNode#0" />
             <element signature="method#getLeft#0;class#HeroNode#0" />
             <element signature="method#setLeft#0;class#HeroNode#0" />
-            <element signature="method#getRight#0;class#HeroNode#0" />
             <element signature="method#setRight#0;class#HeroNode#0" />
             <element signature="method#toString#0;class#HeroNode#0" />
             <element signature="docComment;method#preOrder#0;class#HeroNode#0" />
@@ -686,6 +724,13 @@
             <element signature="docComment;method#postOrderSearch#0;class#HeroNode#0" />
             <element signature="method#postOrderSearch#0;class#HeroNode#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/ClueBinaryTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="96" column="31" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
         </state>
       </provider>
     </entry>
