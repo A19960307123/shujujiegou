@@ -58,6 +58,17 @@ class BinaryTree{
         else
             return null;
     }
+
+    public void delNode(int no){
+        if (root != null){
+            if (root.getNo() == no){
+                root =null;
+            }else
+                root.delNode(no);
+        }
+        else
+            System.out.println("树为空");
+    }
 }
 
 class HeroNode{
@@ -213,5 +224,26 @@ class HeroNode{
             return this;
         }
         return result;
+    }
+
+    /**
+     * 功能描述:删除子树
+     * @return void
+     * @auther mada
+     * @date 2019/12/27 14:54
+     */
+    public void delNode(int no){
+        if (this.left != null &&this.left.no == no){
+            this.left = null;
+            return;
+        }
+        if (this.right!= null && this.right.no == no){
+            this.right = null;
+            return;
+        }
+        if (this.left != null)
+            this.left.delNode(no);
+        if (this.right!=null)
+            this.right.delNode(no);
     }
 }

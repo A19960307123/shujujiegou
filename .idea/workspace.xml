@@ -2,45 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="091eefac-1cb2-40a5-92f3-bc4829369210" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.6.0-M1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.6.0-M1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/META-INF/shujujiegou.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/digui/MiGong.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/digui/Queue8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/haosong/Boy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/haosong/CalStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/haosong/Calculatior.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/haosong/CircleList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/haosong/NiBoLanCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/hashtable/Emp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/hashtable/EmpLinkList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/hashtable/HashTab.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/hashtable/HashTableDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/search/BinarySearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/search/FibonacciSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/search/InsertSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/search/SeqSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/sort/BubbleSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/sort/HeLanFlag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/sort/HillSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/sort/InsertSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/sort/MergeSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/sort/QuickSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/sort/RadixSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/sort/SelectSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/sort/TestSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/tree/BinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/tree/BinaryTreeDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/shujujiegou/tree/HeroNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shujujiegou.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/BinaryTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTreeDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,9 +37,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="337">
+              <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
               <folding>
+                <element signature="method#setRoot#0;class#BinaryTree#0" />
+                <element signature="method#preOrder#0;class#BinaryTree#0" />
+                <element signature="method#infixOrder#0;class#BinaryTree#0" />
+                <element signature="method#postOrder#0;class#BinaryTree#0" />
+                <element signature="method#preOrderSearch#0;class#BinaryTree#0" />
+                <element signature="method#preOrderSearch#1;class#BinaryTree#0" />
+                <element signature="method#preOrderSearch#1;class#BinaryTree#0" />
                 <element signature="method#HeroNode#0;class#HeroNode#0" />
                 <element signature="method#getNo#0;class#HeroNode#0" />
                 <element signature="method#setNo#0;class#HeroNode#0" />
@@ -87,7 +57,26 @@
                 <element signature="method#getRight#0;class#HeroNode#0" />
                 <element signature="method#setRight#0;class#HeroNode#0" />
                 <element signature="method#toString#0;class#HeroNode#0" />
+                <element signature="docComment;method#preOrder#0;class#HeroNode#0" />
+                <element signature="method#preOrder#0;class#HeroNode#0" />
+                <element signature="docComment;method#infixOrder#0;class#HeroNode#0" />
+                <element signature="method#infixOrder#0;class#HeroNode#0" />
+                <element signature="docComment;method#postOrder#0;class#HeroNode#0" />
+                <element signature="docComment;method#preOrderSearch#0;class#HeroNode#0" />
+                <element signature="method#preOrderSearch#0;class#HeroNode#0" />
+                <element signature="docComment;method#infixOrderSearch#0;class#HeroNode#0" />
+                <element signature="docComment;method#postOrderSearch#0;class#HeroNode#0" />
+                <element signature="method#postOrderSearch#0;class#HeroNode#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sort/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1457">
+              <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -196,13 +185,20 @@
               <item name="shujujiegou" type="b2602c69:ProjectViewProjectNode" />
               <item name="shujujiegou" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="haosong" type="462c0819:PsiDirectoryNode" />
+              <item name="digui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shujujiegou" type="b2602c69:ProjectViewProjectNode" />
               <item name="shujujiegou" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hashtable" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shujujiegou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shujujiegou" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTreeDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -222,7 +218,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -236,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HashTableDemo">
+  <component name="RunManager" selected="Application.BinarySearch">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.BinarySearch" />
       <module name="shujujiegou" />
@@ -276,7 +272,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSort" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.MergeSort" />
       <module name="shujujiegou" />
       <extension name="coverage">
@@ -308,7 +304,6 @@
         <item itemvalue="Application.FibonacciSearch" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.TestSort" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +324,7 @@
       <workItem from="1577012404300" duration="30615000" />
       <workItem from="1577156023666" duration="15331000" />
       <workItem from="1577240950956" duration="16230000" />
-      <workItem from="1577412810480" duration="726000" />
+      <workItem from="1577412810480" duration="5121000" />
     </task>
     <task id="LOCAL-00001" summary="第一次用">
       <created>1577413045787</created>
@@ -338,7 +333,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577413045787</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2.0">
+      <created>1577413559365</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577413559365</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2.0">
+      <created>1577416186756</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577416186756</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -347,7 +356,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66107000" />
+    <option name="totallyTimeSpent" value="70698000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,9 +369,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.37061402" visible="true" weight="0.20844504" />
-      <window_info id="Structure" order="1" sideWeight="0.62938595" side_tool="true" visible="true" weight="0.20844504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5926471" visible="true" weight="0.20844504" />
+      <window_info id="Structure" order="1" sideWeight="0.40735295" side_tool="true" visible="true" weight="0.20844504" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.50147057" side_tool="true" weight="0.25" />
@@ -374,11 +384,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49865952" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932975" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="MyBatis Log" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49865952" weight="0.32941177" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50268096" side_tool="true" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49798927" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50067025" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49798927" weight="0.32941177" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="14" sideWeight="0.49731904" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -396,7 +406,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次用" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次用" />
+    <MESSAGE value="2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.0" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -465,13 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/digui/Queue8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2440">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/digui/MiGong.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -525,30 +529,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding>
-            <element signature="docComment;method#merge#0;class#MergeSort#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/RadixSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-          <folding>
-            <element signature="method#main#0;class#QuickSort#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -645,11 +629,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <element signature="docComment;method#merge#0;class#MergeSort#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/digui/Queue8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1457">
+          <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="337">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
           <folding>
+            <element signature="method#setRoot#0;class#BinaryTree#0" />
+            <element signature="method#preOrder#0;class#BinaryTree#0" />
+            <element signature="method#infixOrder#0;class#BinaryTree#0" />
+            <element signature="method#postOrder#0;class#BinaryTree#0" />
+            <element signature="method#preOrderSearch#0;class#BinaryTree#0" />
+            <element signature="method#preOrderSearch#1;class#BinaryTree#0" />
+            <element signature="method#preOrderSearch#1;class#BinaryTree#0" />
             <element signature="method#HeroNode#0;class#HeroNode#0" />
             <element signature="method#getNo#0;class#HeroNode#0" />
             <element signature="method#setNo#0;class#HeroNode#0" />
@@ -660,6 +675,16 @@
             <element signature="method#getRight#0;class#HeroNode#0" />
             <element signature="method#setRight#0;class#HeroNode#0" />
             <element signature="method#toString#0;class#HeroNode#0" />
+            <element signature="docComment;method#preOrder#0;class#HeroNode#0" />
+            <element signature="method#preOrder#0;class#HeroNode#0" />
+            <element signature="docComment;method#infixOrder#0;class#HeroNode#0" />
+            <element signature="method#infixOrder#0;class#HeroNode#0" />
+            <element signature="docComment;method#postOrder#0;class#HeroNode#0" />
+            <element signature="docComment;method#preOrderSearch#0;class#HeroNode#0" />
+            <element signature="method#preOrderSearch#0;class#HeroNode#0" />
+            <element signature="docComment;method#infixOrderSearch#0;class#HeroNode#0" />
+            <element signature="docComment;method#postOrderSearch#0;class#HeroNode#0" />
+            <element signature="method#postOrderSearch#0;class#HeroNode#0" />
           </folding>
         </state>
       </provider>
