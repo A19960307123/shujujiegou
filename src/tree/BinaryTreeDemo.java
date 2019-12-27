@@ -4,7 +4,7 @@ package tree;
  * @author 宋浩
  * @version 1.0
  * @Classname BinaryTreeDemo
- * @Description TODO
+ * @Description 模拟二叉树
  * @Date 2019/12/26 17:18
  */
 public class BinaryTreeDemo {
@@ -36,6 +36,27 @@ class BinaryTree{
             System.out.println("二叉树为空");
         }else
             this.root.postOrder();
+    }
+
+    public HeroNode preOrderSearch(int no){
+        if (root !=null)
+            return  root.preOrderSearch(no);
+        else
+            return null;
+    }
+
+    public HeroNode infixOrderSearch(int no){
+        if (root !=null)
+            return  root.infixOrderSearch(no);
+        else
+            return null;
+    }
+
+    public HeroNode postOrderSearch(int no){
+        if (root !=null)
+            return  root.postOrderSearch(no);
+        else
+            return null;
     }
 }
 
@@ -130,5 +151,67 @@ class HeroNode{
             this.right.postOrder();
         }
         System.out.println(this);
+    }
+    /**
+     * 功能描述:前序遍历查找(通过id查找)
+     * @return tree.HeroNode
+     * @param no 要查找的值
+     * @auther mada
+     * @date 2019/12/27 10:56
+     */
+    public HeroNode preOrderSearch(int no){
+        if (this.no == no) {
+            return this;
+        }
+        HeroNode result =null;
+        if (this.left != null)
+            result = this.left.preOrderSearch(no);
+        if (result != null)
+            return result;
+        if (this.right != null)
+            result =this.right.preOrderSearch(no);
+        return result;
+    }
+
+    /**
+     * 功能描述:中序遍历查找
+     * @return tree.HeroNode
+     * @auther mada
+     * @date 2019/12/27 10:59
+     */
+    public HeroNode infixOrderSearch(int no){
+        HeroNode result = null;
+        if (this.left != null)
+            result = this.left.infixOrderSearch(no);
+        if (result != null)
+            return result;
+        if (this.no == no)
+            return this;
+        if (this.right!=null)
+            result =this.right.infixOrderSearch(no);
+        return result;
+    }
+
+    /**
+     * 功能描述:后序遍历查找
+     * @return tree.HeroNode
+     * @auther mada
+     * @date 2019/12/27 11:03
+     */
+    public HeroNode postOrderSearch(int no){
+        HeroNode result = null;
+        if (this.left != null)
+            result = this.left.postOrderSearch(no);
+        if (result != null)
+            return result;
+        if (this.right!=null) {
+            result =this.right.postOrderSearch(no);
+        }
+        if (result != null)
+            return result;
+        if (this.no == no) {
+            return this;
+        }
+        return result;
     }
 }
