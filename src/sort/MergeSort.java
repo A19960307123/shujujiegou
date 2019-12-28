@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author 宋浩
  * @version 1.0
  * @Classname MergeSort
- * @Description TODO
+ * @Description 归并排序
  * @Date 2019/12/24 19:27
  */
 public class MergeSort {

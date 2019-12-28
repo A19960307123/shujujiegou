@@ -16,7 +16,7 @@ import java.util.Random;
 public class TestSort {
     public static void main(String[] args) {
         try {
-           boolean b = testCheck(RadixSort.class);
+           boolean b = testCheck(HeapSort.class);
            System.out.println(b);
 //            testTime(QuickSort.class);
         } catch (Exception e) {
