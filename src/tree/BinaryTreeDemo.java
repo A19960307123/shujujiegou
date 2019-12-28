@@ -163,6 +163,7 @@ class HeroNode{
         }
         System.out.println(this);
     }
+
     /**
      * 功能描述:前序遍历查找(通过id查找)
      * @return tree.HeroNode
