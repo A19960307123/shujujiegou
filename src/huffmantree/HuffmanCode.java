@@ -2,6 +2,7 @@ package huffmantree;
 
 
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -19,13 +20,19 @@ import java.util.PriorityQueue;
  */
 public class HuffmanCode {
     public static void main(String[] args) {
-        String begin = "i like like like java do you like a java";
+//        String srcFile = "D://常用//头像.jpg";
+//        String destFile = "D://常用//头像.zip";
+//        zipFile(srcFile, destFile);
+        String srcFile = "D://常用//头像.zip";
+        String destFile = "D://常用//头像2.jpg";
+        unZipFile(srcFile, destFile);
+/*        String begin = "i like like like java do you like a java";
         byte[] beginBytes = begin.getBytes();
         HuffmanZipResource zipResource = new HuffmanZipResource();
         HuffmanNode huffmanTree = createHuffmanTree(beginBytes);//创建赫夫曼树
         zipResource.setHuffmanCodeMap(huffmanCode(huffmanTree));
         zip(beginBytes, zipResource);
-        System.out.println(new String(decode(zipResource)));
+        System.out.println(new String(decode(zipResource)));*/
     }
 
 
@@ -136,6 +143,19 @@ public class HuffmanCode {
     }
 
     /**
+     * 使用赫夫曼编码压缩字节数组
+     * @param begin 要压缩的byte[]数组
+     * @return
+     */
+    private static HuffmanZipResource huffmanZip(byte[] begin){
+        HuffmanZipResource zipResource = new HuffmanZipResource();
+        HuffmanNode huffmanTree = createHuffmanTree(begin);//创建赫夫曼树
+        zipResource.setHuffmanCodeMap(huffmanCode(huffmanTree));
+        zip(begin, zipResource);//使用赫夫曼编码压缩文件，写入到zipResource内
+        return zipResource;
+    }
+
+    /**
      * 完成赫夫曼解码
      * @return 解码得到的字节数组
      */
@@ -169,6 +189,74 @@ public class HuffmanCode {
             result[i] = bytes.get(i);
         }
         return result;
+    }
+
+
+    /**
+     * 将文件进行压缩
+     * @param srcFile 传入的希望压缩的文件的全路径
+     * @param destFile 希望压缩后将压缩文件放在哪里的全路径
+     */
+    public static void zipFile(String srcFile , String destFile){
+        FileInputStream fs = null;
+        OutputStream os = null;
+        ObjectOutputStream oos =null;
+        try {
+            fs = new FileInputStream(srcFile);
+            byte[] b = new byte[fs.available()];
+            fs.read(b);//读取文件
+            HuffmanZipResource huffmanZipResource = huffmanZip(b);
+            os = new FileOutputStream(destFile);
+            oos = new ObjectOutputStream(os);
+            oos.writeObject(huffmanZipResource);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }finally {
+            try {
+                if (fs!=null)
+                    fs.close();
+                if (os!=null)
+                    os.close();
+                if (oos!=null)
+                    oos.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
+
+    /**
+     * 将文件进行解压
+     * @param srcFile 准备解压的文件
+     * @param destFile 要解压的路径
+     */
+    public static void unZipFile(String srcFile , String destFile){
+        InputStream is =null;
+        ObjectInputStream ois =null;
+        OutputStream  os= null;
+        try {
+            is = new FileInputStream(srcFile);
+            ois = new ObjectInputStream(is);
+            HuffmanZipResource huffmanZipResource = (HuffmanZipResource) ois.readObject();
+            byte[] decode = decode(huffmanZipResource);
+            os = new FileOutputStream(destFile);
+            os.write(decode);
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+        }
+        try {
+            if (os != null)
+                os.close();
+            if (is != null)
+                is.close();
+            if (ois != null)
+                ois.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
     }
 }
 
@@ -214,7 +302,8 @@ class HuffmanNode implements Comparable<HuffmanNode>{
 /**
  * 赫夫曼编码后的资源文件，存储了赫夫曼编码表，赫夫曼编码后的byte[]数组，以及最后一个字节的长度
  */
-class HuffmanZipResource{
+class HuffmanZipResource implements Serializable{
+    private static final long serialVersionUID = 6538153385604229624L;
     private Map<Byte,String> huffmanCodeMap;//对应的赫夫曼编码表
     private int lastNum;//最后一个字节的长度（防止数据丢失）
     private byte[] huffmanZip;//赫夫曼编码后的byte数组（已压缩）
