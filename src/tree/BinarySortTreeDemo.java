@@ -9,12 +9,13 @@ package tree;
  */
 public class BinarySortTreeDemo {
     public static void main(String[] args) {
-        int[] arr ={7,3,10,12,5,1,9,2};
+        int[] arr ={9,2};
         BinarySortTree binarySortTree = new BinarySortTree();
         for (int value : arr) {
             binarySortTree.add(new Node(value));
         }
-        binarySortTree.delNode(7);
+        binarySortTree.delNode(9);
+        binarySortTree.delNode(2);
         binarySortTree.infixOrder();
     }
 }
@@ -46,7 +47,29 @@ class BinarySortTree{
         }
     }
 
-    public void delNode(int value){
+    /*
+    * 1.找到要删除的结点 node1和它的父节点 nodeParent（如果要删除结点为根结点，就创建一个结点，左子结点指向根节点）
+    * 2.记录要删除结点是其父节点的左子结点还是右子结点 mark1
+    * 3.分情况考虑
+    *      3.1 若要删除的结点有左右子结点
+    *           找出它左子树下最大的值（最下的右子结点）或是右子树下最小的值（最下的左子结点） nodeMark
+    *           同时记录这个标记结点的父节点 nodeMarkParent 和左右子结点信息 mark2
+    *           将node1的值记为nodeMark的值
+    *           之后删除nodeMark结点即可（此时nodeMark一定是下面两个情况）
+    *           node1 = nodeMark ,nodeParent =nodeMarkParent,mark1 = mark2
+    *       3.2 若要删除的结点是叶子结点
+    *           父节点对应的子结点置位 null即可
+    *       3.3 若要删除的结点有一个子结点
+    *           父节点对应的子结点 设置为 被删除结点唯一的子结点 即可
+    * 4.专门讨论删除的结点为root结点的情况
+    *       4.1 若要删除的结点有左右子结点
+    *           不需要额外处理，root结点会被赋予新值，删除的结点并不是root
+    *       4.2 若要删除的结点是叶子结点
+    *           root = null 即可
+    *       4.3 若要删除的结点有一个子结点
+    *           root = 唯一的子结点即可
+    * */
+    public void delNode(int value){//对根节点的删除要单独写情况
         if (root == null){
             return;
         }
@@ -86,6 +109,10 @@ class BinarySortTree{
         }
         //1.要删除的结点为叶子结点
         if (search.left ==null && search.right == null){
+            if (search == root){//如果要删除的是根结点
+                root = null;
+                return;
+            }
             if (mark ==1){
                 searchTheParent.left =null;
             }else {
@@ -95,6 +122,9 @@ class BinarySortTree{
         }
 
         //3.要删除的结点只有一个子结点
+        if (search ==root){
+            root = searchTheParent.left;
+        }
         if (mark ==1){
             if (search.left ==null){
                 searchTheParent.left =search.right;
