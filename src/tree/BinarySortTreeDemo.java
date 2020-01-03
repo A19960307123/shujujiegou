@@ -11,8 +11,8 @@ public class BinarySortTreeDemo {
     public static void main(String[] args) {
         int[] arr ={7,3,10,12,5,1,9,2};
         BinarySortTree binarySortTree = new BinarySortTree();
-        for (int i = 0; i < arr.length; i++) {
-            binarySortTree.add(new Node(arr[i]));
+        for (int value : arr) {
+            binarySortTree.add(new Node(value));
         }
         binarySortTree.delNode(7);
         binarySortTree.infixOrder();
