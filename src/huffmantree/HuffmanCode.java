@@ -23,9 +23,9 @@ public class HuffmanCode {
 //        String srcFile = "D://常用//头像.jpg";
 //        String destFile = "D://常用//头像.zip";
 //        zipFile(srcFile, destFile);
-        String srcFile = "D://常用//头像.zip";
-        String destFile = "D://常用//头像2.jpg";
-        unZipFile(srcFile, destFile);
+        String srcFile = "D://科研//谐振腔//yuanzhu//14s//AA.txt";
+        String destFile = "D://科研//谐振腔//yuanzhu//14s//AA.zip";
+        zipFile(srcFile, destFile);
 /*        String begin = "i like like like java do you like a java";
         byte[] beginBytes = begin.getBytes();
         HuffmanZipResource zipResource = new HuffmanZipResource();
