@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="091eefac-1cb2-40a5-92f3-bc4829369210" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tree/AVLTreeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tree/BinarySortTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinarySortTreeDemo.java" afterDir="false" />
     </list>
@@ -35,14 +37,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tree/AVLTreeDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="194" column="36" lean-forward="true" selection-start-line="194" selection-start-column="36" selection-end-line="194" selection-end-column="36" />
+              <folding>
+                <element signature="method#getRoot#0;class#AVLTree#0" />
+                <element signature="method#infixOrder#0;class#AVLTree#0" />
+                <element signature="method#Node#0;class#AVLNode#0" />
+                <element signature="docComment;method#height#0;class#AVLNode#0" />
+                <element signature="method#height#0;class#AVLNode#0" />
+                <element signature="docComment;method#leftHeight#0;class#AVLNode#0" />
+                <element signature="method#leftHeight#0;class#AVLNode#0" />
+                <element signature="docComment;method#rightHeight#0;class#AVLNode#0" />
+                <element signature="method#rightHeight#0;class#AVLNode#0" />
+                <element signature="docComment;method#add#0;class#AVLNode#0" />
+                <element signature="docComment;method#infixOrder#0;class#AVLNode#0" />
+                <element signature="method#toString#0;class#AVLNode#0" />
+                <element signature="docComment;method#searchParent#0;class#AVLNode#0" />
+                <element signature="method#searchParent#0;class#AVLNode#0" />
+                <element signature="docComment;method#leftRotate#0;class#AVLNode#0" />
+                <element signature="method#leftRotate#0;class#AVLNode#0" />
+                <element signature="docComment;method#rightRotate#0;class#AVLNode#0" />
+                <element signature="method#rightRotate#0;class#AVLNode#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tree/BinarySortTreeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="377">
+              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding>
-                <element signature="class#BinarySortTreeDemo#0" />
                 <element signature="method#main#0;class#BinarySortTreeDemo#0" />
-                <element signature="class#BinarySortTree#0" />
                 <element signature="method#add#0;class#BinarySortTree#0" />
                 <element signature="method#infixOrder#0;class#BinarySortTree#0" />
                 <element signature="method#searchParent#0;class#BinarySortTree#0" />
@@ -53,7 +82,7 @@
                 <element signature="docComment;method#infixOrder#0;class#Node#0" />
                 <element signature="method#infixOrder#0;class#Node#0" />
                 <element signature="method#toString#0;class#Node#0" />
-                <element signature="docComment;method#search#0;class#Node#0" />
+                <element signature="docComment;method#searchParent#0;class#Node#0" />
                 <element signature="method#searchParent#0;class#Node#0" />
               </folding>
             </state>
@@ -79,12 +108,15 @@
       <find>宋</find>
       <find>father</find>
       <find>node</find>
+      <find>AVLNode</find>
+      <find>Node</find>
     </findStrings>
     <replaceStrings>
       <replace>r</replace>
       <replace>mid</replace>
       <replace>index</replace>
       <replace>parent</replace>
+      <replace>AVLNode</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -138,6 +170,7 @@
         <option value="$PROJECT_DIR$/src/huffmantree/HuffmanTree.java" />
         <option value="$PROJECT_DIR$/src/huffmantree/HuffmanCode.java" />
         <option value="$PROJECT_DIR$/src/tree/BinarySortTreeDemo.java" />
+        <option value="$PROJECT_DIR$/src/tree/AVLTreeDemo.java" />
       </list>
     </option>
   </component>
@@ -177,27 +210,14 @@
               <item name="shujujiegou" type="b2602c69:ProjectViewProjectNode" />
               <item name="shujujiegou" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="huffmantree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shujujiegou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shujujiegou" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="huffmantree" type="462c0819:PsiDirectoryNode" />
-              <item name="HuffmanCode.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="shujujiegou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shujujiegou" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="huffmantree" type="462c0819:PsiDirectoryNode" />
-              <item name="HuffmanTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shujujiegou" type="b2602c69:ProjectViewProjectNode" />
               <item name="shujujiegou" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="BinarySortTreeDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -219,7 +239,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="Images" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -233,9 +253,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySortTreeDemo">
-    <configuration name="BinarySortTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BinarySortTreeDemo" />
+  <component name="RunManager" selected="Application.AVLTreeDemo">
+    <configuration name="AVLTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.AVLTreeDemo" />
       <module name="shujujiegou" />
       <extension name="coverage">
         <pattern>
@@ -247,12 +267,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.HeapSort" />
+    <configuration name="BinarySortTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BinarySortTreeDemo" />
       <module name="shujujiegou" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,11 +334,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AVLTreeDemo" />
         <item itemvalue="Application.BinarySortTreeDemo" />
         <item itemvalue="Application.HuffmanCode" />
         <item itemvalue="Application.HuffmanTree" />
         <item itemvalue="Application.TestSort" />
-        <item itemvalue="Application.HeapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +362,7 @@
       <workItem from="1577412810480" duration="12017000" />
       <workItem from="1577529825309" duration="12293000" />
       <workItem from="1577694524618" duration="26504000" />
-      <workItem from="1578016120345" duration="9873000" />
+      <workItem from="1578016120345" duration="17526000" />
     </task>
     <task id="LOCAL-00001" summary="第一次用">
       <created>1577413045787</created>
@@ -442,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578037960511</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="2.0">
+      <created>1578038230994</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578038230994</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -451,7 +478,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126264000" />
+    <option name="totallyTimeSpent" value="133917000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,15 +493,15 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.44017094" weight="0.21380697" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.44017094" visible="true" weight="0.21380697" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.47368422" side_tool="true" weight="0.20844504" />
-      <window_info id="Structure" order="4" sideWeight="0.5263158" visible="true" weight="0.211126" />
+      <window_info id="Structure" order="4" sideWeight="0.5263158" weight="0.211126" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.43529412" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35882354" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.48088235" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49865952" weight="0.32941177" />
@@ -763,54 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/ArrBinaryTreeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-640">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3815">
-          <caret line="235" column="32" selection-start-line="235" selection-start-column="32" selection-end-line="235" selection-end-column="32" />
-          <folding>
-            <element signature="docComment;class#BinaryTreeDemo#0" />
-            <element signature="method#preOrder#0;class#BinaryTree#0" />
-            <element signature="method#infixOrder#0;class#BinaryTree#0" />
-            <element signature="method#postOrder#0;class#BinaryTree#0" />
-            <element signature="method#preOrderSearch#0;class#BinaryTree#0" />
-            <element signature="method#HeroNode#0;class#HeroNode#0" />
-            <element signature="method#getNo#0;class#HeroNode#0" />
-            <element signature="method#setNo#0;class#HeroNode#0" />
-            <element signature="method#getName#0;class#HeroNode#0" />
-            <element signature="method#setName#0;class#HeroNode#0" />
-            <element signature="method#getLeft#0;class#HeroNode#0" />
-            <element signature="method#setLeft#0;class#HeroNode#0" />
-            <element signature="method#setRight#0;class#HeroNode#0" />
-            <element signature="docComment;method#preOrder#0;class#HeroNode#0" />
-            <element signature="method#preOrder#0;class#HeroNode#0" />
-            <element signature="docComment;method#infixOrder#0;class#HeroNode#0" />
-            <element signature="method#infixOrder#0;class#HeroNode#0" />
-            <element signature="docComment;method#postOrder#0;class#HeroNode#0" />
-            <element signature="method#postOrder#0;class#HeroNode#0" />
-            <element signature="docComment;method#preOrderSearch#0;class#HeroNode#0" />
-            <element signature="method#preOrderSearch#0;class#HeroNode#0" />
-            <element signature="docComment;method#infixOrderSearch#0;class#HeroNode#0" />
-            <element signature="method#infixOrderSearch#0;class#HeroNode#0" />
-            <element signature="docComment;method#postOrderSearch#0;class#HeroNode#0" />
-            <element signature="method#postOrderSearch#0;class#HeroNode#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/ClueBinaryTreeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/search/InsertSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="640">
@@ -1029,14 +1008,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/ArrBinaryTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/ClueBinaryTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="method#preOrder#0;class#BinaryTree#0" />
+            <element signature="method#infixOrder#0;class#BinaryTree#0" />
+            <element signature="method#postOrder#0;class#BinaryTree#0" />
+            <element signature="method#preOrderSearch#0;class#BinaryTree#0" />
+            <element signature="method#HeroNode#0;class#HeroNode#0" />
+            <element signature="method#getNo#0;class#HeroNode#0" />
+            <element signature="method#setNo#0;class#HeroNode#0" />
+            <element signature="method#getName#0;class#HeroNode#0" />
+            <element signature="method#setName#0;class#HeroNode#0" />
+            <element signature="method#getLeft#0;class#HeroNode#0" />
+            <element signature="method#setLeft#0;class#HeroNode#0" />
+            <element signature="method#setRight#0;class#HeroNode#0" />
+            <element signature="docComment;method#preOrder#0;class#HeroNode#0" />
+            <element signature="method#preOrder#0;class#HeroNode#0" />
+            <element signature="docComment;method#infixOrder#0;class#HeroNode#0" />
+            <element signature="method#infixOrder#0;class#HeroNode#0" />
+            <element signature="docComment;method#postOrder#0;class#HeroNode#0" />
+            <element signature="method#postOrder#0;class#HeroNode#0" />
+            <element signature="docComment;method#preOrderSearch#0;class#HeroNode#0" />
+            <element signature="method#preOrderSearch#0;class#HeroNode#0" />
+            <element signature="docComment;method#infixOrderSearch#0;class#HeroNode#0" />
+            <element signature="method#infixOrderSearch#0;class#HeroNode#0" />
+            <element signature="docComment;method#postOrderSearch#0;class#HeroNode#0" />
+            <element signature="method#postOrderSearch#0;class#HeroNode#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/BinarySortTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="377">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding>
-            <element signature="class#BinarySortTreeDemo#0" />
             <element signature="method#main#0;class#BinarySortTreeDemo#0" />
-            <element signature="class#BinarySortTree#0" />
             <element signature="method#add#0;class#BinarySortTree#0" />
             <element signature="method#infixOrder#0;class#BinarySortTree#0" />
             <element signature="method#searchParent#0;class#BinarySortTree#0" />
@@ -1047,8 +1071,35 @@
             <element signature="docComment;method#infixOrder#0;class#Node#0" />
             <element signature="method#infixOrder#0;class#Node#0" />
             <element signature="method#toString#0;class#Node#0" />
-            <element signature="docComment;method#search#0;class#Node#0" />
+            <element signature="docComment;method#searchParent#0;class#Node#0" />
             <element signature="method#searchParent#0;class#Node#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/AVLTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="194" column="36" lean-forward="true" selection-start-line="194" selection-start-column="36" selection-end-line="194" selection-end-column="36" />
+          <folding>
+            <element signature="method#getRoot#0;class#AVLTree#0" />
+            <element signature="method#infixOrder#0;class#AVLTree#0" />
+            <element signature="method#Node#0;class#AVLNode#0" />
+            <element signature="docComment;method#height#0;class#AVLNode#0" />
+            <element signature="method#height#0;class#AVLNode#0" />
+            <element signature="docComment;method#leftHeight#0;class#AVLNode#0" />
+            <element signature="method#leftHeight#0;class#AVLNode#0" />
+            <element signature="docComment;method#rightHeight#0;class#AVLNode#0" />
+            <element signature="method#rightHeight#0;class#AVLNode#0" />
+            <element signature="docComment;method#add#0;class#AVLNode#0" />
+            <element signature="docComment;method#infixOrder#0;class#AVLNode#0" />
+            <element signature="method#toString#0;class#AVLNode#0" />
+            <element signature="docComment;method#searchParent#0;class#AVLNode#0" />
+            <element signature="method#searchParent#0;class#AVLNode#0" />
+            <element signature="docComment;method#leftRotate#0;class#AVLNode#0" />
+            <element signature="method#leftRotate#0;class#AVLNode#0" />
+            <element signature="docComment;method#rightRotate#0;class#AVLNode#0" />
+            <element signature="method#rightRotate#0;class#AVLNode#0" />
           </folding>
         </state>
       </provider>

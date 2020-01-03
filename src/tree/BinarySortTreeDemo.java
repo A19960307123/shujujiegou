@@ -4,7 +4,7 @@ package tree;
  * @author 宋浩
  * @version 1.0
  * @Classname BinarySortTreeDemo
- * @Description TODO
+ * @Description 二叉排序树
  * @Date 2020/1/3 9:53
  */
 public class BinarySortTreeDemo {
