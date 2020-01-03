@@ -73,20 +73,20 @@ class BinarySortTree{
         if (root == null){
             return;
         }
-        Node searchTheParent;
+        Node searchTheParent;//searchTheParent表示要删除的结点的父节点
         Node search ;//search表示要删除的结点
         int mark;//1表示要删除结点为左节点，2表示要删除结点为右节点
         if (root.value==value){//恰好删除根节点
             searchTheParent = new Node(-1);//创建一个结点的左子结点指向root
             searchTheParent.left =root;
         }else{
-            searchTheParent  = searchParent(value);//searchTheParent表示要删除的结点的父节点
+            searchTheParent  = searchParent(value);
         }
         if (searchTheParent == null){
             System.out.println("未找到要删除的结点");
             return;
         }else if(searchTheParent.left.value == value){
-            search = searchTheParent.left;//search表示要删除的结点
+            search = searchTheParent.left;
             mark = 1;
         }else {
             search = searchTheParent.right;
